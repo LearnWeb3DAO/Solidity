@@ -42,6 +42,7 @@ There are 3 types of variables in Solidity
   - Stored on the blockchain
 - Global
   - (provides information about the blockchain)
+  - [Examples of global variables](https://docs.soliditylang.org/en/v0.8.9/units-and-global-variables.html)
 
 ```go
 // Define the compiler version you would be using
