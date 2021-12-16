@@ -41,8 +41,11 @@ There are 3 types of variables in Solidity
   - declared outside a function to maintain the state of the smart contract
   - Stored on the blockchain
 - Global
-  - (provides information about the blockchain)
+  - Provide information about the blockchain. They are injected by the Ethereum Virtual Machine during runtime.
+  - Includes things like transaction sender, block timestamp, block hash, etc.
   - [Examples of global variables](https://docs.soliditylang.org/en/v0.8.9/units-and-global-variables.html)
+
+The scope of variables is defined by where they are declared, not their value. Setting a local variable's value to a global variable does not make it a global variable, as it is still only accessible within it's scope.
 
 ```go
 // Define the compiler version you would be using
