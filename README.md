@@ -1,4 +1,4 @@
-# Solidity
+# Level 6 - Solidity
 
 In this module you will learn what is Solidity and its basics
 
