@@ -38,7 +38,7 @@ There are 3 types of variables in Solidity
 - Local
   - Declared inside a function and are not stored on blockchain
 - State
-  - declared outside a function to maintain the state of the smart contract
+  - Declared outside a function to maintain the state of the smart contract
   - Stored on the blockchain
 - Global
   - Provide information about the blockchain. They are injected by the Ethereum Virtual Machine during runtime.
