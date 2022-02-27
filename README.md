@@ -61,7 +61,8 @@ contract Variables {
     different sizes are available. Eg
         - uint8   ranges from 0 to 2 ** 8 - 1
         - uint256 ranges from 0 to 2 ** 256 - 1
-    `public` means that the variable can be accessed internally by the contract and can also be read by the external world
+    `public` means that the variable can be accessed internally
+     by the contract and can also be read by the external world
     */
     uint8 public u8 = 10;
     uint public u256 = 600;
@@ -120,7 +121,8 @@ contract Conditions {
     /*
         Name of the function is set.
         It takes in a uint and sets the global variable num.
-        It is a declared as a public function meaning it can be called from within the contract and also externally.
+        It is a declared as a public function meaning
+        it can be called from within the contract and also externally.
     */
     function set(uint _num) public {
         num = _num;
@@ -129,7 +131,8 @@ contract Conditions {
     /*
         Name of the function is get.
         It returns the value of num.
-        It is declared as a view function meaning that the function doesnt change the state of any variable.
+        It is declared as a view function meaning
+        that the function doesnt change the state of any variable.
         View functions in solidity do not require gas.
     */
     function get() public view returns (uint) {
