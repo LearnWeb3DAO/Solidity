@@ -104,7 +104,8 @@ contract Variables {
         uint timestamp = block.timestamp; // Current block timestamp
         address sender = msg.sender; // address of the caller
     }
-}```
+}
+```
 
 ### <u>Functions, Loops and If/Else</u>
 
