@@ -240,8 +240,9 @@ contract Array {
         uint length = arr.length;
         // Delete does not change the array length.
         // It resets the value at index to it's default value,
-        // in this case 0
-        delete arr[index];
+        // in this case it resets the value at index 1 in arr2 to 0
+        uint index = 1;
+        delete arr2[index];
         // create array in memory, only fixed size can be created
         uint[] memory a = new uint[](5);
         // create string in memory
