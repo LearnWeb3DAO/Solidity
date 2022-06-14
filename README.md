@@ -1,25 +1,21 @@
 # Level 6 - Solidity
 
-In this module you will learn what is Solidity and its basics
+![image](https://user-images.githubusercontent.com/16539849/173652628-7e8fcc6f-69bc-40ef-8abb-e0dbd8219047.png)
 
-<br>
+In this module you will learn what is Solidity and the basic syntax of the language.
 
 ## What is Solidity ?
 
 - Solidity is an object-oriented, high-level language for implementing smart contracts. It is designed to target [Ethereum Virtual Machine(EVM)](https://coinmarketcap.com/alexandria/glossary/ethereum-virtual-machine-evm)
 - It is statically typed, supports inheritance, libraries and complex user-defined types among other features.
 
----
-
-<br>
+<Quiz questionId="e7201124-8b84-4e20-99d3-d85189ee1817" />
 
 ## Building in Solidity
 
-<br>
+### Initializing smart contracts
 
-### <u>Initializing smart contracts </u>
-
-```go
+```solidity
 // Define the compiler version you would be using
 pragma solidity ^0.8.10;
 
@@ -29,9 +25,7 @@ contract HelloWorld {
 }
 ```
 
-<br>
-
-### <u>Variables and types</u>
+### Variables and types
 
 There are 3 types of variables in Solidity
 
@@ -47,7 +41,9 @@ There are 3 types of variables in Solidity
 
 The scope of variables is defined by where they are declared, not their value. Setting a local variable's value to a global variable does not make it a global variable, as it is still only accessible within it's scope.
 
-```go
+<Quiz questionId="04b4af27-6816-4a2e-9070-16c6e4c783ce" />
+
+```solidity
 // Define the compiler version you would be using
 pragma solidity ^0.8.10;
 
@@ -107,10 +103,14 @@ contract Variables {
 }
 ```
 
-### <u>Functions, Loops and If/Else</u>
+<Quiz questionId="2156e5cd-26ac-402d-bbe9-ecaefdd8c87a" />
+<Quiz questionId="bd68f893-b126-4f54-aa78-2906f2287629" />
+<Quiz questionId="d934fc15-f88d-4cd7-b903-f268f1c16980" />
+<Quiz questionId="a531c37c-96f9-4bbd-a80f-893b37a5c94e" />
 
-```go
+### Functions, Loops and If/Else
 
+```solidity
 // Define the compiler version you would be using
 pragma solidity ^0.8.10;
 
@@ -134,7 +134,7 @@ contract Conditions {
         It returns the value of num.
         It is declared as a view function meaning
         that the function doesnt change the state of any variable.
-        View functions in solidity do not require gas.
+        view functions in solidity do not require gas.
     */
     function get() public view returns (uint) {
         return num;
@@ -178,12 +178,14 @@ contract Conditions {
 
 ```
 
-### <u>Arrays, Strings</u>
+<Quiz questionId="b9a5620b-7c92-450b-afa8-1cda0dfba54a" />
+<Quiz questionId="f14bb058-720b-42e5-ba85-4c7bfc1b93ee" />
+
+### Arrays, Strings
 
 Array can have a compile-time fixed size or a dynamic size.
 
-```go
-
+```solidity
 pragma solidity ^0.8.10;
 
 contract Array {
@@ -252,13 +254,13 @@ contract Array {
  }
 ```
 
----
+<Quiz questionId="0643be02-c57b-41b0-b7e2-9e855883b7c2" />
+<Quiz questionId="ec82e3aa-ec12-4d8b-8f81-f21ff1fb0a54" />
+<Quiz questionId="bab86524-5ace-4baa-add4-f66482b51abe" />
 
 ## References
 
 [Solidity by Example](https://solidity-by-example.org/)
-
----
 
 ## Resources for learning extra
 
@@ -266,4 +268,8 @@ contract Array {
 - [Solidity by Example](https://solidity-by-example.org/)
 - [Solidity docs](https://docs.soliditylang.org/en/v0.8.10/)
 
----
+## DYOR Questions
+<Quiz questionId="685cf7f3-aafe-4199-a40e-06256a9191f9" />
+<Quiz questionId="36ea5014-f51e-4fb3-8fa2-027062b1c895" />
+
+<SubmitQuiz />
