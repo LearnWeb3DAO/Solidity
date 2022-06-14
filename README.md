@@ -1,6 +1,6 @@
 # Level 6 - Solidity
 
-![image](https://user-images.githubusercontent.com/16539849/173652628-7e8fcc6f-69bc-40ef-8abb-e0dbd8219047.png)
+![image](https://user-images.githubusercontent.com/16539849/173656651-a46df615-8ec3-43fd-9619-98647a6d2bd2.png)
 
 In this module you will learn what is Solidity and the basic syntax of the language.
 
